@@ -180,4 +180,13 @@ section {
 .skills-container ul li .icon-container .featured-desc {
   margin-bottom: 2em;
 }
+
+.skills-container ul li .portfolio {
+  background: #F7F7F7;
+}
+
+.skills-container ul li .portfolio-container a img {
+  border-radius: 1em;
+  margin-bottom: 2em;
+}
 /*# sourceMappingURL=main.css.map */

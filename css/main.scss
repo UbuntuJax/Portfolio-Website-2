@@ -1,3 +1,5 @@
+//mobile first implementation, implementing for mobile, expanding for use cases
+//that are not mobile
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,700&display=swap');
 
 body {
@@ -168,4 +170,18 @@ section {
             margin-bottom: 2em;
         }
     }
+
+    .portfolio {
+        background: #F7F7F7;
+    }
+
+    .portfolio-container a img {
+        border-radius: 1em;
+        margin-bottom: 2em;
+    }
+}
+
+//code only applies to displays over 800px (wide)
+@media only screen and (min-width: 800px) {
+
 }
