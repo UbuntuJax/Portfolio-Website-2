@@ -141,4 +141,43 @@ section {
   line-height: 1.8em;
   font-weight: 500;
 }
+
+.skills {
+  background: #FF64CB;
+}
+
+.skills-container ul li {
+  background: white;
+  padding: 2em;
+  border-radius: 1em;
+  margin-bottom: 1em;
+}
+
+.skills-container ul li .icon-container {
+  height: 100px;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  margin: 0 auto;
+}
+
+.skills-container ul li .icon-container.one {
+  width: 120px;
+}
+
+.skills-container ul li .icon-container.two {
+  width: 50px;
+}
+
+.skills-container ul li .icon-container.three {
+  width: 60px;
+}
+
+.skills-container ul li .icon-container .skill-title {
+  font-weight: bold;
+}
+
+.skills-container ul li .icon-container .featured-desc {
+  margin-bottom: 2em;
+}
 /*# sourceMappingURL=main.css.map */

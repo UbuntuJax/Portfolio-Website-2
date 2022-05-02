@@ -133,3 +133,39 @@ section {
     font-weight: 500;
 }
 
+.skills {
+    background: #FF64CB
+}
+
+.skills-container ul li{
+
+    background: white;
+    padding: 2em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+
+    .icon-container {
+        height: 100px;
+        display: grid;
+        place-content: center;
+        margin: 0 auto;
+
+        &.one {
+            width: 120px;
+        }
+        &.two {
+            width: 50px;
+        }
+        &.three {
+            width: 60px;
+        }
+
+        .skill-title {
+            font-weight: bold; //This doesn't work
+        }
+
+        .featured-desc {
+            margin-bottom: 2em;
+        }
+    }
+}
