@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,700&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', arial;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+img{width: 100%;}
+
+.nav-container {
+    background: #6700EE;
+
+    a {
+        color: white;
+    }
+}
+
+header {
+    display: flex; //puts elements on 2 columns
+    justify-content: space-between; //right allign for mobile
+    padding: 2em; //whitespace on the inside of the element
+
+    .logo {
+        color: #00F7FF;
+        font-weight: bold;
+    }
+
+
+
+    ul {
+        display: flex;
+
+        a {
+            display: block;
+            padding: 0 1em;
+        }
+    }
+}
+
+/*
+mobile implementation for social media links (if I ever get around to adding them (maybe gmail,
+linkedin would be nice but idfk
+
+.social-header{
+    display:none;
+}
+*/
+
+.hero {
+    background: #6E00ff;
+    color: white;
+    display: grid;
+    text-align: center;
+    padding: 4em;
+}
+
+/*
+mobile implementation for the little artistic thing we have at the bottom but for the top, again
+probably wont bother with this
+.hero-design{
+    display: none;
+}
+*/
+
+.meet {
+    display: flex;
+    margin: 0 auto;
+    width: 200px;
+    font-weight: bold;
+    color: #FF64CB;
+
+    span {
+        margin-top: 1em;
+        margin-right: .25em; //changed from .5 to 0.25
+    }
+}
+
+.scroll {
+    width: 30px;
+    margin-top: 2em;
+}
