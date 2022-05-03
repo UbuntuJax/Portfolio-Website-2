@@ -163,7 +163,7 @@ section {
         }
 
         .skill-title {
-            font-weight: bold; //This doesn't work
+            font-weight: bold;
         }
 
         .featured-desc {
@@ -190,6 +190,7 @@ section {
     .featured, .portfolio-container { //rules for these two classes
         display: grid; //sets up side by side format
         grid-template-columns: 40% auto; //takes two args, first arg declares the length of the 1st element, 2nd arg the 2nd element
+        margin-bottom: 2em;
     }
 
     .left, .portfolio-left {
@@ -215,11 +216,12 @@ section {
     }
 
     .portfolio {
-        padding-top: 7em; //extend this?
+        padding-top: 10em; //extend this?
     }
 
     .portfolio-container img {
         margin-left: 2em;
+        margin-top: 2em;
     }
 }
 

@@ -199,6 +199,7 @@ section {
     display: grid;
     -ms-grid-columns: 40% auto;
         grid-template-columns: 40% auto;
+    margin-bottom: 2em;
   }
   .left, .portfolio-left {
     display: -ms-grid;
@@ -222,10 +223,11 @@ section {
     grid-gap: 1em;
   }
   .portfolio {
-    padding-top: 7em;
+    padding-top: 10em;
   }
   .portfolio-container img {
     margin-left: 2em;
+    margin-top: 2em;
   }
 }
 
