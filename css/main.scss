@@ -184,4 +184,56 @@ section {
 //code only applies to displays over 800px (wide)
 @media only screen and (min-width: 800px) {
 
+    .featured, .portfolio {
+        text-align: left; //justify text to the left (with margins)
+    }
+    .featured, .portfolio-container { //rules for these two classes
+        display: grid; //sets up side by side format
+        grid-template-columns: 40% auto; //takes two args, first arg declares the length of the 1st element, 2nd arg the 2nd element
+    }
+
+    .left, .portfolio-left {
+        display: grid;
+        place-content: center;
+    }
+
+    .right {
+        margin-left: 2em;
+        margin-top: 1em;
+    }
+
+    .skills {
+        margin-top: -5em;
+        margin-bottom: -7em;
+        padding-top: 7em;
+    }
+
+    .skills-container ul { //contains unordered list
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 1em;
+    }
+
+    .portfolio {
+        padding-top: 7em; //extend this?
+    }
+
+    .portfolio-container img {
+        margin-left: 2em;
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+    .hero {
+        height: 90vh;
+    }
+
+    .nav-container {
+        display: grid;
+        grid-template-columns: 66% auto;
+        background: unset;
+    }
+    header {
+
+    }
 }
