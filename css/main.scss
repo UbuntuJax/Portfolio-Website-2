@@ -230,10 +230,96 @@ section {
 
     .nav-container {
         display: grid;
-        grid-template-columns: 66% auto;
-        background: unset;
+        //grid-template-columns: 66% auto; //comment this to fix up nav bar positioning (assuming no social elements)
+        background: unset; //comment this out to fix the nav bar
+        
+        header {
+            background: #6700EE;
+        }
     }
     header {
+        padding: 2em 2em 2em 4em; //top bottom left right
+    }
+    .social-header {
+        padding: 2em 4em 2em 0; //top bottom left right
+    }
+    section {
+        padding: 4em; //top bottom left right
+    }
 
+    .social-header {
+        display: block; // brings elements back into view
+        ul { // social stuff
+            display: flex;
+            justify-content: space-between;
+            width: 7em;
+            float: right;
+
+            img { //sets size of elements
+                width: 20px;
+            }
+        }
+    }
+
+    .hero {
+        display: grid;
+        grid-template-columns: 66% auto;
+        background: unset;
+        padding: 0;
+
+        .content {
+            background: #6E00FF;
+            padding: 6em 8em 6em 4em;
+            text-align: left;
+
+            h1 {
+                font-size: 3em;
+                line-height: 1.2em;
+            }
+        }
+    }
+    .meet {
+        margin: unset;
+    }
+    .hero-design { //for the design element, replace this section with the photo when done
+        display: unset;
+        margin-left: -50%;
+        margin-top: 15%;
+        width: 100%;
+    }
+
+    .portfolio img {
+        float: right;
+        max-width: 500px;
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+    header {
+        padding: 2em 2em 2em 10em;    
+    }
+    .social-header {
+        padding: 2em 10em 2em 0;    
+    }
+    section {
+        padding: 10em 10em 4em 10em;    
+    }
+    .hero .content {
+        padding: 6em 8em 6em 10em;
+    }
+}
+
+@media only screen and (min-width: 1550px) {
+    header {
+        padding: 2em 2em 2em 20em;    
+    }
+    .social-header {
+        padding: 2em 20em 2em 0;    
+    }
+    section {
+        padding: 6em 20em 4em 20em;    
+    }
+    .hero .content {
+        padding: 9em 20em 6em 20em;
     }
 }
