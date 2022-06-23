@@ -61,6 +61,7 @@ linkedin would be nice but idfk
     display:none;
 }
 */
+
 .hero {
   background: #6E00ff;
   color: white;
@@ -268,11 +269,12 @@ section {
   .social-header ul img {
     width: 20px;
   }
+  /*This is for portfolio image when I can figure that out*/
   .hero {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 66% auto;
-        grid-template-columns: 66% auto;
+    -ms-grid-columns: 50% auto;
+        grid-template-columns: 50% auto;
     background: unset;
     padding: 0;
   }
